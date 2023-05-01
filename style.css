@@ -1,0 +1,200 @@
+@import url(https://fonts.googleapis.com/css?family=Poppins:100,100italic,200,200italic,300,300italic,regular,italic,500,500italic,600,600italic,700,700italic,800,800italic,900,900italic);
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family:'Poppins', sans-serif; 
+ }
+
+ body {
+    background-image:  linear-gradient(rgba(1,1,1,0.9), rgba(1,1,1,0.1)) , url(background.jpg);
+    
+  }
+ .container {
+     min-height: 140vh; 
+ }
+ 
+ .logo {
+    width: 190px;
+    fill: #e50914;
+    position:absolute;
+    margin-top: 20px;
+    margin-left: 50px;
+ }  
+ form {
+    color:  #fff;
+    background-color: rgba(0,0,0,.5);
+    border-radius: .3rem;
+    width: 450px;
+    position: absolute;
+    transform: translateX(-50%);
+    left: 50%;
+    
+    padding: 60px;
+    margin-top: 6rem;
+    
+ }
+ form h1 {
+    margin-bottom: 28px;
+ }
+ .form-group {
+    width: 100%;
+    height: 50px;
+    margin-bottom: 16px;
+    position: relative;
+ }
+
+ .form-group input {
+    width: 100%;
+    height: 100%;
+    background-color: #333;
+    border: none;
+    border-radius: .3rem;
+    outline: none;
+    color: #fff;
+    padding: 16px 20px 0;
+    font-size: 1rem;
+ }
+ .form-group label {
+    position: absolute;
+    top: 50%;
+    left: 20px;
+    transform: translateY(-50%);
+    color:  #8c8c8c;
+    pointer-events: none;
+    transition: 600ms ease-in-out transform, 600ms ease-in-out font-size;
+    
+ }
+
+ .form-group input:focus ~ label,
+ .form-group input:valid ~ label {
+    transform:  translateY(-1.25rem);
+    font-size: .7rem;
+ }
+
+ form button {
+    width: 100%;
+    background-color: #e50914;
+    color: #fff;
+    border-radius: 0.3em;
+    padding-top: 12px;
+    padding-bottom: 15px;
+    font-weight: 700;
+    font-size: large;
+    margin-top: 20px;
+ }
+
+ .remember {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 10px;
+ }
+
+ .checkwala{
+    accent-color: #8c8c8c;
+    height: 15px; /* not needed */
+    width: 20px; /* not needed */
+    
+}
+ .remember label {
+    color:#8c8c8c;
+    font-size: 1rem;
+    padding-bottom: 30px;
+    
+ }
+
+ .remember a{
+    color: #8c8c8c;
+    text-decoration: none;
+
+ }
+
+ .remember a:hover {
+    text-decoration: underline;
+ }
+
+ .SignUpNow{
+    margin-top: 100px;
+    color: #8c8c8c;
+ }
+
+ .SignUpNow a{
+    text-decoration: none;
+    color:#fff;
+ }
+
+ .SignUpNow a:hover {
+    text-decoration: underline;
+ }
+ .captcha{
+    margin-top: 10px;
+    font-size: small;
+    color: #8c8c8c;
+ }
+ .captcha a{
+    text-decoration: none;
+    color:#fff;
+ }
+
+ .captcha a:hover {
+    text-decoration: underline;
+ }
+
+ footer {
+    position: absolute;
+    left: 0;
+    bottom: -40vh;
+    width: 100%;
+    height: 260px;
+    background-color: rgba(0,0,0,.5);
+    padding: 30px 170px;
+    
+ }
+
+ footer a{
+    text-decoration: none;
+    color: #757575;
+    
+ }
+
+ footer a:hover {
+    text-decoration: underline;
+ }
+
+ footer .top{
+    margin-bottom: 30px;
+    color: #8c8c8c;
+ }
+
+ footer .links {
+    display: flex;
+    flex-wrap: wrap;
+    
+ }
+
+ footer .links a {
+    display: inline-block;
+    width: 250px;
+    margin-bottom: 16px;
+    font-size: 0.8rem;
+ }
+
+ select {
+
+    width: 120px;
+    height: 50px;
+    border-radius: 0.3em;
+    background-color: rgb(7, 6, 6);
+    color: #8c8c8c;
+    text-align-last: right;
+    background-image: url(icons8-geography-50.jpg);
+    background-repeat: no-repeat;
+	background-position: 0.9em center;
+    background-size: 20px;
+    border: 2px solid;
+    
+    
+ }
+
